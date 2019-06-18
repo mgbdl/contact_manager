@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Consumer } from '../../context';
 import uuid from 'uuid';
+import axios from 'axios';
 
 import TextInputGroup from '../layout/TextInputGroup';
 
@@ -15,7 +16,7 @@ class AddContact extends Component {
   // Necesary to make the form works
   onChange = e => this.setState({ [e.target.name]: e.target.value });
 
-  onSubmit = (dispatch, e) => {
+  onSubmit = async (dispatch, e) => {
     e.preventDefault();
 
     const { name, email, phone } = this.state;
@@ -35,9 +36,18 @@ class AddContact extends Component {
       return;
     }
 
-    const newContact = { id: uuid(), name, email, phone };
+    // uuid placeholder gets removed since the API has its owns
+    // const newContact = { id: uuid(), name, email, phone };
+    // Emmulates the POST query to add a contact. By fetching the
+    // next id and mixing with the form data.
+    const newContact = { name, email, phone };
 
-    dispatch({ type: 'ADD_CONTACT', payload: newContact });
+    const resp = await axios.post(
+      'https://jsonplaceholder.typicode.com/users',
+      newContact
+    );
+
+    dispatch({ type: 'ADD_CONTACT', payload: resp.data });
 
     this.setState({
       name: '',
