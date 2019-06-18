@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/github.io/contactmanager/static/css/main.36497136.chunk.css",
-    "main.js": "/github.io/contactmanager/static/js/main.d129d63a.chunk.js",
-    "main.js.map": "/github.io/contactmanager/static/js/main.d129d63a.chunk.js.map",
-    "runtime~main.js": "/github.io/contactmanager/static/js/runtime~main.8c3b0ba6.js",
-    "runtime~main.js.map": "/github.io/contactmanager/static/js/runtime~main.8c3b0ba6.js.map",
-    "static/css/2.266e55a5.chunk.css": "/github.io/contactmanager/static/css/2.266e55a5.chunk.css",
-    "static/js/2.9eec12bf.chunk.js": "/github.io/contactmanager/static/js/2.9eec12bf.chunk.js",
-    "static/js/2.9eec12bf.chunk.js.map": "/github.io/contactmanager/static/js/2.9eec12bf.chunk.js.map",
-    "index.html": "/github.io/contactmanager/index.html",
-    "precache-manifest.2ea30e3e6b074eb7207a239259721ddb.js": "/github.io/contactmanager/precache-manifest.2ea30e3e6b074eb7207a239259721ddb.js",
-    "service-worker.js": "/github.io/contactmanager/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/github.io/contactmanager/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.36497136.chunk.css.map": "/github.io/contactmanager/static/css/main.36497136.chunk.css.map"
+    "main.css": "/contactmanager/static/css/main.36497136.chunk.css",
+    "main.js": "/contactmanager/static/js/main.ef0f5e84.chunk.js",
+    "main.js.map": "/contactmanager/static/js/main.ef0f5e84.chunk.js.map",
+    "runtime~main.js": "/contactmanager/static/js/runtime~main.884ecd02.js",
+    "runtime~main.js.map": "/contactmanager/static/js/runtime~main.884ecd02.js.map",
+    "static/css/2.266e55a5.chunk.css": "/contactmanager/static/css/2.266e55a5.chunk.css",
+    "static/js/2.9eec12bf.chunk.js": "/contactmanager/static/js/2.9eec12bf.chunk.js",
+    "static/js/2.9eec12bf.chunk.js.map": "/contactmanager/static/js/2.9eec12bf.chunk.js.map",
+    "index.html": "/contactmanager/index.html",
+    "precache-manifest.cec244a124e391018d195aebf65dc745.js": "/contactmanager/precache-manifest.cec244a124e391018d195aebf65dc745.js",
+    "service-worker.js": "/contactmanager/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/contactmanager/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.36497136.chunk.css.map": "/contactmanager/static/css/main.36497136.chunk.css.map"
   }
 }
