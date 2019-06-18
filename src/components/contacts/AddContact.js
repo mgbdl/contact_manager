@@ -45,6 +45,8 @@ class AddContact extends Component {
       phone: '',
       errros: {}
     });
+
+    this.props.history.push('/');
   };
 
   render() {
