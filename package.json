@@ -2,7 +2,7 @@
   "name": "contact_manager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mgbdl/github.io/contact_manager",
+  "homepage": "https://mgbdl.github.io/contact_manager",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
